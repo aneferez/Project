@@ -1,10 +1,11 @@
+body{font-size:16px}.container{width:960px;margin:0 auto;}@media(max-width:768px){body{font-size:14px}.container{width:90%;}}@media(max-width:480px){body{font-size:12px}.container{width:100%;padding:0 10px;}}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 header{
     position: fixed;
@@ -103,11 +104,12 @@ nav .register{
     margin-top: 10px;
 }
 .hero .text h1{
-    color: #fff;
+    color: #d60e0ea3;;
     font-size: 65px;
     text-transform: uppercase;
     line-height: 1;
     margin-top: 30px;
+   
 }
 .hero .text h1 span{
     color: #f3d302ba;
@@ -249,7 +251,7 @@ nav .register{
 }
 
 .btn span {
-    background: var(--glow), black;
+    background: var(--glow), rgb(217, 209, 209);
     background-clip: text;
     color: transparent;
   height: 100%;
